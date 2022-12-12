@@ -1,0 +1,5 @@
+-Municipio(idMunicipio, nombre, estado, estatus, idVivienda)
+
+-Pesona(idPersona, nombre, a.paterno, a.materno, rfc, estatus, idVivienda, idPersona)
+
+-Vivienda(idVivienda, calle, numero, ciudad, estatus, idPersona)

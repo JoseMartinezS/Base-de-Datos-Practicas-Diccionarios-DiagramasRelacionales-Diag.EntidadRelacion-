@@ -1,0 +1,13 @@
+-Hotel(idHotel, nombre, direccion, calle, numero, ciudad, telefono, codigohotel, plazadisponible)
+
+-Sucursal(idSucursal, telefono, codigosucursal, calle, numero, ciudad)
+
+-Turista(idTurista, codigoturista, nombre, a. paterno, a. materno, telefono, calle, numero, ciudad)
+
+-Vuelo(idVuelo, numerovuelo, plazastotales, plazasdisponibles, origen, destino, fechahora)
+
+-Viaje(idViaje, idTurista, idSucursal)
+
+-ViajeHotel(idViajeHotel, idViaje, idHotel, fechallegada, fechapartida)
+
+ViajeVuelo(idViajeVuelo, idViaje, idVuelo, clase)

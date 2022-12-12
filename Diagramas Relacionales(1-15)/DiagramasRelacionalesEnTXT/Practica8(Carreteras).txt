@@ -1,0 +1,7 @@
+-Carretera(idCarretera, nombre, estatus)
+
+-Municipio(idMunicipio, nombre, estado, estatus)
+
+-Tramo(idTramo, descripcion, estatus, idTramo)
+
+-TramoMunicipio(idTramoMunicipio, idTramo, idMunicipio, kmsalida, kmentrada)

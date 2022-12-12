@@ -1,0 +1,13 @@
+-AreaConocimiento(idAreaConocimiento, nombre, estatus)
+
+-Catedra(idCatedra, nombre, estatus)
+
+-Departamento(idDepartamento, nombre, idCatedra, idProfesor, idAreaConocimiento,estatus)
+
+-Facultad(idFacultad, nombre, calle, colonia, ciudad, estado, estatus)
+
+-Profesor(idProfesor, nombre, apellidoPaterno, apellidoMaterno, calle, colonia, ciudad, telefono, idDepartamento, idFacultad, estatus)
+
+-DepartamentoFacultad(idDepartamentoFacultad, idDepartamento, idFacultad, estatus)
+
+-CatedraProfesor(idCatedraProfesor, idCatedra, idProfesor, estatus)

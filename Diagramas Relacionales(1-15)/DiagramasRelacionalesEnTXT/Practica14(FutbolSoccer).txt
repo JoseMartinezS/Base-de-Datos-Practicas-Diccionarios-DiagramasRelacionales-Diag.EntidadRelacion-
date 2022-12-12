@@ -1,0 +1,13 @@
+-Colegiado(idColegiado, nombre, apellidoPaterno, apellidoMaterno, tipo, estatus)
+
+-Equipo(idJugador, nombre, apellidoPaterno, apellidoMaterno, calle, numero, colonia, ciudad, curp, idEquipo, estatus)
+
+-Jugador(idJugador, nombre, apellidoPaterno, apellidoMaterno, calle, numero, colonia, ciudad, curp, idEquipo, estatus
+
+-Partido(idPartido, nombre, tipo, idEquipo, estatus)
+
+-Puesto(idPuesto, nombre, descripcion, estatus)
+
+-JugadorPuesto(idJugadorPuesto, idJugador, idPuesto, fecha, estatus)
+
+-ColegioPartido(idColegioPartido, idColegio, idPartido, estatus)

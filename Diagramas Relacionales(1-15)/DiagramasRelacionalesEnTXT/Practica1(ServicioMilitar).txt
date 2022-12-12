@@ -1,0 +1,13 @@
+-Compañia(idCompañia, acitvidad primaria)
+
+-Cuartel(idCuartel, Ubicacion, calle, numero, ciudad, nombre, codigo)
+
+-Cuerpo(idCuerpo, denominacion, numero)
+
+-Servicio(idServicio, codigo, descripcion)
+
+-soldado(idSoldado, nombre, a.paterno, a.materno, graduacion, codigo, idCompañia, idCuerpo, idCuartel)
+
+-CompañiaCuartel(idCompañiaCuartel, idCompañia, idCuartel)
+
+-ServicioSoldado(idServicioSoldado, idServicio, idSoldado, fecha)

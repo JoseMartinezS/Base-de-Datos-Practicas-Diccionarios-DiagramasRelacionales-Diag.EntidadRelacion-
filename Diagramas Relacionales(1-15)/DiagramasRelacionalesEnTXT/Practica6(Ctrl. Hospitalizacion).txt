@@ -1,0 +1,17 @@
+-Cama(idCama, numero, estatus, idPaciente)
+
+-Diagnostico(idDiagnostico, codigodiagnostico, descripcion, estatus, idPaciente)
+
+-Medico(idMedico, nombre, a. paterno, a. materno, numerofichamedico, estatus)
+
+-Paciente(idPaciente, nombre, a. paterno, a. materno, rfc, numeroseguro, fechanacimiento, estatus)
+
+-Planta(idPlanta, numeroplanta, nombre, estatus)
+
+-Pase(idPase, numeropase, horainicio, horafinal, estatus)
+
+-Visita(idVisita, fecha, estatus, idPaciente)
+
+-PacienteCama(idPacienteCama, idPaciente, idCama, fechaasignacion)
+
+-MedicoDiagnostico(idMedicoDiagnostico, idMedico, idDiagnostico)

@@ -1,0 +1,26 @@
+HERBARIO DEL 07
+Compra(idCompra, cantidad, fecha, estatus)
+
+Consulta(idConsulta, fecha, precio, estatus)
+
+Empleado(idEmpleado, puesto, sueldo, nombre, aprellidop, apellidom, calle, numero, ciudad, telefono, estatus)
+
+Factura(idFactura, fecha, remitente, cantidad, estatus)
+
+Medicamento(idMedicamento, existencia, salida, estatus)
+
+Rperesentante(idRepresentante, nombre, apellidop, apellidom, calle, numero, ciudad, telefono, estatus)
+
+Producto(idProducto, nombre, precio, cantidad, idFactura)
+
+Proveedor(idProveedor, nombre, apellidop, apellidom, calle, numero, ciudad, telefono, idCompra, idRepresentante, estatus)
+
+Paciente(idPaciente, nombre, apellidop, apellidom, calle, numero, ciudad, telefono, estauts)
+
+Venta(idVenta, cantidad, fecha, idConsulta, idMedicamento, estatus)
+
+ConsultaPaciente(idConsultaPaciente, idConsulta, idPaciente, estatus)
+
+VentaProducto(idVentaProducto, idVenta, idProducto, estatus)
+
+CompraProducto(idCompraProducto, idCompra, idProducto, estatus)

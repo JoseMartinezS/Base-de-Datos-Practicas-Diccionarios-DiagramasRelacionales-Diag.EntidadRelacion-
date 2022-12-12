@@ -1,0 +1,13 @@
+-Alumno(idAlumno, nombre, a. paterno, a materno, matricula, grupo)
+
+-Examen(idExamen, numeroexamen, numeropreguntas, recharealizado)
+
+-Practica(idPractica, codigopractica, titulo, tipo, gradodificultado)
+
+-Profesor(idProfesor, nombre, a. paterno, a. materno, matritucla)
+
+-AlumnoExamen(idAlumnoExamen, idAlumno, idExamen, nota)
+
+-AlumnoPractica(idAlumnoPractica, idAlumno, idPractica, nota, fecha)
+
+-PracticaAlumno(idPracitcaAlumno, idPractica, idAlumno, fecha)

@@ -1,0 +1,17 @@
+-Cliente(idCliente, nombre, a. paterno, a. materno, telefono, calle, numero, colonia, ciudad, estatus)
+
+-Hotel(idHotel, nombre, codigohotel, telefono, calle, numero, ciudad, estatus)
+
+-PuntoRuta(idPuntoRuta, estancia, destino, estatus, idTipoRuta)
+
+-TipoRuta(idTipoRuta, estatus)
+
+-TipoTour(idTipoTour, estatus
+
+-Tour(idTour, nombre, estatus, idTipoTour)
+
+-TourCliente(idTourCliente, idTour, idCliente)
+
+-ClienteHotel(idClienteHotel, idCliente, idHotel, fecha)
+
+-TourPuntoRuta(idTourPuntoRuta, idTour, idPuntoRuta)

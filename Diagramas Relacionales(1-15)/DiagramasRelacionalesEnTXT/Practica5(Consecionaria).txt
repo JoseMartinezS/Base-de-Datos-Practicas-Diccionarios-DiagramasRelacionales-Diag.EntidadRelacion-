@@ -1,0 +1,15 @@
+-Cliente(idCliente, nombre, a. paterno, a. materno, rfc, ciudad, calle, mumero)
+
+-Opcion(idOpcion, nombre, descripcion)
+
+-Usado(idUsado, marca, matricula, modelo, precio, idCliente, fecha)
+
+-Vehiculo(idVehiculo, marca, modelo, cilindros, precio)
+
+-Vendedor(idVendedor, nombre, a. paterno, a. materno, rdc, calle, numero, ciudad)
+
+-Venta(idVenta, fecha, matricula, idCliente, idVendedor, idVehiculo)
+
+-VehiculoOpcion(idVehiculoOpcion, idVehiculo, idOpcion, precio)
+
+-VentaOpcion(idVentaOpcion, idVenta, idOpcion, precio)

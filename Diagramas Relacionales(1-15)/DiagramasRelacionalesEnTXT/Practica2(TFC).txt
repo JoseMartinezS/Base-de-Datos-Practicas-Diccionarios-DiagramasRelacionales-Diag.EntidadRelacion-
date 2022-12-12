@@ -1,0 +1,13 @@
+-Alumno (idAlumno, nombre, a.paterno, a. materno, matricula, idProfesor, idGrupo, idTFC)
+
+-Grupo(idGrupo, nombre, numerocomponente, numerogrupo)
+
+-Profesor(idProfesor, nombre, a. paterno, a. materno, domicilio, rfc)
+
+-TFC(idTFC, fechacomienza, numeroOrden, tema, idTribunal)
+
+-idTribunal, numerocomponentes, numerotribunal, lugarexamen)
+
+-AlumnoProfesor(idAlumnoProfesor, idAlumno, idProfesor)
+
+-ProfesorTribunal(idProfesorTribunal, idProfesor, idTribunal, fecha)

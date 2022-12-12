@@ -1,0 +1,11 @@
+-Agencia(idAgencia, nombre, marca, calle, numero, ciudad, codigoagencia, estatus)
+
+-Cliente(idCliente, nombre, a. paterno, a. materno, rfc, calle, numero, ciudad, estatus)
+
+-Coche(idCoche, cilindros, marca, matricula, precio, estatus, año)
+
+-Garage(idGarage, calle, numero, ciudad, estatus, idGarage)
+
+-Reserva(idReserva, fechacomienza, fechafinaliza, estatus, idCliente, idAgencia)
+
+-ReservaCoche(idReservaCoche, idReserva, idCoche)

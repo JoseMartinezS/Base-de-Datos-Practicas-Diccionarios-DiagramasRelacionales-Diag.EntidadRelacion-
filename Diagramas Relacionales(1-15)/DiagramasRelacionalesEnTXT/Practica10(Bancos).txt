@@ -1,0 +1,11 @@
+-Cliente(idCliente, nombre, a. paterno, a. materno, telefono, rfc, calle, numero, ciudad, estado, estatus)
+
+-Cuenta(idCuenta, saldo, numerocuenta, estatus, idSucursal)
+
+-Domiciliacion(idDomiciliacion, calle, numero, ciudad, fecha, estatus, idCuenta)
+
+-Prestamo(idPrestamo, monto, plazo, fecha, numerofolio, estatus, idPrestamo)
+
+-Sucursal(idSucursal, nombre, calle, numero, ciudad, colonia, estatus)
+
+-CuentaCliente(idCuentaCliente, idCuenta, idCliente, privilegio)

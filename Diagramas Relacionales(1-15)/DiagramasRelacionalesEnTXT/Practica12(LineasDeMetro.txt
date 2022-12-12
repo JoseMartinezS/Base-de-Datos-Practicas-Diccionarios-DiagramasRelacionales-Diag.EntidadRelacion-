@@ -1,0 +1,11 @@
+-Cochera(idCochera, nombre, calle, numero, ciudad, idEstacion)
+
+-Acceso(idAcceso, nombre, calle, numero, ciudad, estatus, idAcceso)
+
+-Estacion(idEstacion, nombre, calle, numero, ciudad, estatus)
+
+-Linea(idLinea, nombre, ruta, estatus)
+
+-Tren(idTren, estatus, numero, ideLinea, idCochera)
+
+-LineaEstacion(idLineaEstacion, idLinea, idEstacion)
